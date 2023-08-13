@@ -1,0 +1,8 @@
+{"level":30,"time":1691685430123,"msg":"Listening on port 3001 in production environment"}
+{"level":30,"time":1691685430366,"method":"GET","path":"/currentuser"}
+{"level":30,"time":1691685435152,"method":"POST","path":"/login","body":{"email":"shawkyfaried@gmail.com","password":"[Redacted]"}}
+{"level":30,"time":1691685435272,"method":"GET","path":"/currentuser"}
+{"level":30,"time":1691685435277,"method":"GET","path":"/courses"}
+{"level":30,"time":1691685435383,"method":"GET","path":"/currentuser"}
+{"level":30,"time":1691686143068,"method":"GET","path":"/currentuser"}
+{"level":30,"time":1691686143103,"method":"GET","path":"/courses"}

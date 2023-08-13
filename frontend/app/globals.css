@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+div,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+i,
+b,
+strong {
+  direction: rtl;
+}
+
+.up-down {
+  animation: MoveUpDown 2s linear alternate-reverse infinite;
+}
+
+@keyframes MoveUpDown {
+  from {
+    bottom: 30px;
+  }
+  to {
+    bottom: 64px;
+  }
+}
+
+.cut-viewport-height {
+  max-height: calc(100vh - 80px);
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.hide-scroll-bars::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.hide-scroll-bars {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
