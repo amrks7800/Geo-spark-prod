@@ -58,7 +58,7 @@ export default function SubscriptionDrawer({
 
           <DrawerBody>
             <p className="text-[#2F2D51] text-xl leading-10 font-semibold">
-              للأشتراك في المنصة ابعت 60 جنية فقط عن طريق
+              للأشتراك في المنصة ابعت 100 جنية فقط عن طريق
               فودافون كاش ع الرقم ده{" "}
               <span
                 className="text-primary-blue font-bold"
